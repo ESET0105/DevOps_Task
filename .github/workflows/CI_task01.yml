@@ -27,7 +27,7 @@ jobs:
 
     - name: Testing with pytest
       run: |
-        python -m pytest textclass.py -v
+        pytest 
     
     
     
