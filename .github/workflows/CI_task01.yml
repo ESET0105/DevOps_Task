@@ -30,3 +30,13 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Printing Echo Message 
+      run: |
+        echo "Hello GitHub Actions"
+        echo "Today's date: $(date)"
+        echo "Branch name: ${{ github.ref_name }}"
+    
+
+
+      
+
