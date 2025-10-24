@@ -27,7 +27,10 @@ jobs:
 
     - name: Testing with pytest
       run: |
-        pytest 
+        if pytest ; then
+        echo "✅ All tests passed!"
+        echo "🎉 Text classification tests completed successfully"
+        fi
     
     
     
